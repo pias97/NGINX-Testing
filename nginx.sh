@@ -6,4 +6,4 @@ sudo apt install nginx -y
 sudo ufw app list
 sudo ufw allow 'Nginx HTTP'
 sudo ufw allow 'Nginx HTTPS'
-sudo ufw enable
+sudo ufw enable -y
